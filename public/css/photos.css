@@ -1,0 +1,142 @@
+.page-photo {
+  /*
+  margin: 10vh auto;
+  display: flex;
+  max-width: 1140px;
+  background-color: #fff;
+  */
+  display: flex;
+  max-width: 100%;
+  background-color: #fff;
+
+}
+
+.container-photo {
+  width: 100%;
+  height: 40vh;
+  background: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.photo-container {
+  position: relative;
+  top: -90px;
+  left: -120px;
+  transform: rotate(10deg);
+}
+
+.photo-cont-item {
+  display: flex;
+  width: calc(380px * 6);
+}
+.photo-cont-item .photo-item {
+  width: 320px;
+  height: 200px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);*/
+}
+
+.animation-1 {
+  animation: scroller 40s linear infinite;
+  display: flex;
+  width: calc(380px * 12);
+}
+
+.animation-2 {
+  margin-left: 150px;
+  animation: scroller 30s linear infinite;
+  display: flex;
+  width: calc(380px * 12);
+}
+
+.animation-3 {
+  animation: scroller 50s linear infinite;
+  display: flex;
+  width: calc(380px * 12);
+}
+
+@keyframes scroller {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-380px * 6));
+  }
+}
+.photo-1 {
+  background-image: url(../upload/img1.png);
+}
+
+.photo-2 {
+  background-image: url(../upload/img2.png);
+}
+
+.photo-3 {
+  background-image: url(../upload/img3.png);
+}
+
+.photo-4 {
+  background-image: url(../upload/img4.png);
+}
+
+.photo-5 {
+  background-image: url(../upload/img5.png);
+}
+
+.photo-6 {
+  background-image: url(../upload/img6.png);
+}
+
+.photo-7 {
+  background-image: url(../upload/img7.png);
+}
+
+.photo-8 {
+  background-image: url(../upload/img8.png);
+}
+
+.photo-9 {
+  background-image: url(../upload/img9.png);
+}
+
+.photo-10 {
+  background-image: url(../upload/img10.png);
+}
+
+.photo-11 {
+  background-image: url(../upload/img11.png);
+}
+
+.photo-12 {
+  background-image: url(../upload/img12.png);
+}
+
+.photo-13 {
+  background-image: url(../upload/img13.png);
+}
+
+.photo-14 {
+  background-image: url(../upload/img14.png);
+}
+
+.photo-15 {
+  background-image: url(../upload/img15.png);
+}
+
+.photo-16 {
+  background-image: url(../upload/img16.png);
+}
+
+.photo-17 {
+  background-image: url(../upload/img17.png);
+}
+
+.photo-18 {
+  background-image: url(../upload/img18.png);
+}
